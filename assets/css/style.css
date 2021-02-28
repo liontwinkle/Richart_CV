@@ -904,6 +904,8 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contact .info i {
@@ -935,9 +937,6 @@ section {
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
-  margin-top: 40px;
-}
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #0563bb;
